@@ -1,0 +1,8 @@
+{
+  "player": [
+    "{\"ID\":0,\"PREFAB\":\"Prefabs/Player/Player_Knight\",\"INVENITEM\":\"i\",\"EQUIPITEM\":\"e\",\"MONEY\":0,\"LV\":1,\"ATK\":10,\"DEF\":10,\"EXP\":0.0}",
+    "{\"ID\":1,\"PREFAB\":\"Prefabs/Player/Player_Archer\",\"INVENITEM\":\"i11031202\",\"EQUIPITEM\":\"e1400140014001400\",\"MONEY\":5000,\"LV\":2,\"ATK\":20,\"DEF\":20,\"EXP\":1000.0}",
+    "{\"ID\":2,\"PREFAB\":\"Prefabs/Player/Player_Archer\",\"INVENITEM\":\"i11031203\",\"EQUIPITEM\":\"e140014001400\",\"MONEY\":0,\"LV\":1,\"ATK\":10,\"DEF\":10,\"EXP\":0.0}",
+    "{\"ID\":3,\"PREFAB\":\"Prefabs/Player/Player_Archer\",\"INVENITEM\":\"i12061101\",\"EQUIPITEM\":\"e1400140014001400\",\"MONEY\":5000,\"LV\":2,\"ATK\":20,\"DEF\":20,\"EXP\":1000.0}"
+  ]
+}

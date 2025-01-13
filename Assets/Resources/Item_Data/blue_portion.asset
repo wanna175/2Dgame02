@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a9b9588171c9f44dbcb1ed1eac977a1, type: 3}
+  m_Name: blue_portion
+  m_EditorClassIdentifier: 
+  _id: 12
+  _name: "\uD30C\uB780 \uD3EC\uC158"
+  _grade: normal
+  _price: 100
+  _tooltip: "\uB9C8\uB098\uB97C 5000 \uD68C\uBCF5\uD574\uC8FC\uB294 \uBB3C\uC57D"
+  _iconSprite: {fileID: 872404249, guid: 1af96afaa8c0f0f45bcc145eb2b93936, type: 3}
+  _dropItemPrefab: {fileID: 8685634857161832114, guid: a79f182deba425948b01c4f2c4dd0a9d, type: 3}
+  _maxAmount: 99
+  _hp: 0
+  _mp: 5000
