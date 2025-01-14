@@ -4,13 +4,17 @@ FSM(유한 상태 기계)을 기반으로 플레이어의 행동을 제어하며
 
 ---
 
+## 🎥 유튜브 데모 보기
+
+[![유튜브 데모 보기](https://img.youtube.com/vi/DAJyfd8Mug4&t=48s/0.jpg)](https://www.youtube.com/watch?v=DAJyfd8Mug4&t=48s)
+
+
+
 ## 🎮 01. RPG 게임 - Player 시스템
 
 ### **플레이어 행동 제어**
 - **FSM(유한 상태 기계)**을 기반으로 플레이어의 행동을 제어합니다.
 - 각각의 캐릭터는 `BasePlayer` 클래스를 상속받아 동작하며, 이는 **프리팹(Prefab)**으로 저장되어 있습니다.
-
-<img src="https://raw.githubusercontent.com/wanna175/2Dgame02/main/img/1.png" alt="플레이어 행동 제어" width="600"/>
 
 ---
 
@@ -20,14 +24,14 @@ FSM(유한 상태 기계)을 기반으로 플레이어의 행동을 제어하며
   - **데이터 불러오기**: 게임 시작 시 `DataManager` 싱글톤 객체가 JSON 파일을 읽어와 캐릭터 슬롯을 보여줍니다.
   - **선택된 캐릭터 관리**: 캐릭터 선택 후 `PlayerManager`에 정보가 저장됩니다.
 
-![캐릭터 데이터 관리](https://raw.githubusercontent.com/your-repo/path/to/character-selection.png)
+<img src="https://raw.githubusercontent.com/wanna175/2Dgame02/main/img/1.PNG" alt="플레이어 행동 제어" width="600"/>
 
 ---
 
 ### **씬 전환과 플레이어 배치**
 - 플레이어가 다른 맵으로 이동할 때마다 `SceneManager`가 `PlayerManager`를 참조하여 로딩 중에 새로운 플레이어를 생성하고 배치합니다.
 
-![씬 전환 시 플레이어 배치](https://raw.githubusercontent.com/your-repo/path/to/scene-transition.png)
+<img src="https://raw.githubusercontent.com/wanna175/2Dgame02/main/img/2.PNG" alt="2" width="600"/>
 
 ---
 
@@ -38,7 +42,7 @@ FSM(유한 상태 기계)을 기반으로 플레이어의 행동을 제어하며
 - 데미지 값을 **int로 분리**한 후, 해당 값에 맞는 스프라이트를 매칭하여 출력합니다.
 - **크리티컬 데미지**: 일정 확률로 크리티컬 데미지를 표현합니다.
 
-![데미지 스킨](https://raw.githubusercontent.com/your-repo/path/to/damage-skin.png)
+<img src="https://raw.githubusercontent.com/wanna175/2Dgame02/main/img/3.PNG" alt="3" width="600"/>
 
 ---
 
@@ -46,7 +50,7 @@ FSM(유한 상태 기계)을 기반으로 플레이어의 행동을 제어하며
 - 사용자가 획득한 **아이템**이나 **경험치 정보**를 출력합니다.
 - 직관적인 UI를 통해 게임 정보를 확인할 수 있습니다.
 
-![정보창](https://raw.githubusercontent.com/your-repo/path/to/info-window.png)
+<img src="https://raw.githubusercontent.com/wanna175/2Dgame02/main/img/4.PNG" alt="4" width="500"/>
 
 ---
 
@@ -54,11 +58,6 @@ FSM(유한 상태 기계)을 기반으로 플레이어의 행동을 제어하며
 - **아이템 버리기**: 불필요한 아이템을 선택적으로 버릴 수 있습니다.
 - **아이템 사용**: 선택한 아이템을 바로 사용할 수 있도록 구현되었습니다.
 
-![인벤토리](https://raw.githubusercontent.com/your-repo/path/to/inventory.png)
+<img src="https://raw.githubusercontent.com/wanna175/2Dgame02/main/img/5.PNG" alt="5" width="600"/>
 
 ---
-
-## 🔗 **깃허브 저장소**
-게임에 대한 더 자세한 정보를 확인하려면 아래 링크를 방문하세요!  
-[📂 깃허브 저장소](https://github.com/your-repo)
-
