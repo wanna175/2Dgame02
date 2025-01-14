@@ -10,7 +10,7 @@ FSM(유한 상태 기계)을 기반으로 플레이어의 행동을 제어하며
 - **FSM(유한 상태 기계)**을 기반으로 플레이어의 행동을 제어합니다.
 - 각각의 캐릭터는 `BasePlayer` 클래스를 상속받아 동작하며, 이는 **프리팹(Prefab)**으로 저장되어 있습니다.
 
-![플레이어 행동 제어](https://raw.githubusercontent.com/your-repo/path/to/player-action.png)
+<img src="https://raw.githubusercontent.com/wanna175/2Dgame02/main/img/1.png" alt="플레이어 행동 제어" width="600"/>
 
 ---
 
