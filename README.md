@@ -6,9 +6,8 @@ FSM(유한 상태 기계)을 기반으로 플레이어의 행동을 제어하며
 
 ## 🎥 유튜브 데모 보기
 
-[![유튜브 데모 보기](https://img.youtube.com/vi/DAJyfd8Mug4/0.jpg)](https://www.youtube.com/watch?v=DAJyfd8Mug4)
 <a href="https://www.youtube.com/watch?v=DAJyfd8Mug4" target="_blank">
-    <img src="https://img.youtube.com/vi/DAJyfd8Mug4/0.jpg" alt="YouTube Video" width="600" />
+    <img src="https://img.youtube.com/vi/DAJyfd8Mug4/0.jpg" alt="YouTube Video" width="600" height="400" />
 </a>
 
 
